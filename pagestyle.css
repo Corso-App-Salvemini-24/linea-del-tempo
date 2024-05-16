@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html { 
+    --text-color: #1E0342;
+    --page-bg-color: #E1F7F5;
+    --bar-color: #9AC8CD;
+    --dots-color: #0E46A3;
+
+}
+
+body {
+    background-color: var(--page-bg-color);
+    font-family: "Plus Jakarta Sans";
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-block: 1em;
+}
+
+header{
+    background-color: var(--bar-color);
+}
+
+header a{
+    font-size: 1.5em;
+    text-decoration: none;
+    position: absolute;
+    padding: 5px;
+
+    &:visited{
+        color: black;
+    }
+    &:link{
+        color: black;
+    }
+}
+
+main{
+    margin: 1em;
+}
