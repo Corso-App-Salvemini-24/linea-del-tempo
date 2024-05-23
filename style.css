@@ -16,7 +16,6 @@ html {
 
 body {
     margin: 0;
-    color: var(--text-color);
     background-color: var(--page-bg-color);
     font-family: "Plus Jakarta Sans";
 }
@@ -96,6 +95,18 @@ header {
             border-radius: 100%;
 
             transition: all 0.1s ease-in-out;
+        }
+
+        .galilei {
+            background-color: var(--dots-color);
+        }
+
+        .newton {
+            background-color: #EE4E4E;
+        }
+
+        .keplero {
+            background-color: #40A578;
         }
 
         .arrow {

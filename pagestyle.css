@@ -10,11 +10,23 @@ html {
 
 }
 
+img {
+    display: inline;
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-left: 1em;
+    
+    border: 1em;
+    border-color: var(--bar-color);
+}
+
 body {
     background-color: var(--page-bg-color);
     font-family: "Plus Jakarta Sans";
     margin: 0;
 }
+
 h1 {
     text-align: center;
     margin: 0;
