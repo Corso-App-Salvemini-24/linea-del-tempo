@@ -17,12 +17,13 @@ img {
     
     border: 1em;
     border-color: var(--bar-color);
+    border-style: solid;
 }
 
 @media (min-width:0px) {
     img {
         float: none;
-        width: 100%;
+        width: calc(100% - 2em);
     }
 }
 
