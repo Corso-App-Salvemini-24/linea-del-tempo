@@ -8,17 +8,31 @@ html {
     --bar-color: #9AC8CD;
     --dots-color: #0E46A3;
 
+    text-align: justify;
 }
 
 img {
     display: inline;
-    float: right;
-    width: 50%;
     height: auto;
-    margin-left: 1em;
     
     border: 1em;
     border-color: var(--bar-color);
+}
+
+@media (min-width:0px) {
+    img {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) {
+    img {
+        float: right;
+        width: 50%;
+        margin-left: 1em;
+    }
+    
 }
 
 body {
